@@ -16,5 +16,7 @@ The images are in .jpg format and has dimension of roughly 500x600 pixels, which
 ![N|Solid](https://github.com/aj8101/image-caption/blob/main/templates/Screenshot%202021-11-21%20211120.png?raw=true) 
 
 ## Result Page: 
+
+![N|Solid](https://github.com/aj8101/image-caption/blob/main/templates/Screenshot%202021-11-21%20220001.png?raw=true)
  
 ## Live Link:   https://caption-image-aj.herokuapp.com/
