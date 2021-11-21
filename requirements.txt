@@ -1,0 +1,7 @@
+pillow
+pickleshare
+numpy
+tensorflow-cpu
+Flask
+urllib3
+gunicorn

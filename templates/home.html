@@ -1,0 +1,70 @@
+<html>
+   <head>
+      <title>Caption IT</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+      <style>
+         body {
+         color: #00a5e7
+         background-color: #00a5e7
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         }
+         h1 {
+         /*font-family: Times New Roman, Arial;*/
+         font-family: 'Lobster Two', cursive;
+         text-align: center;
+         font-size: 60px;
+         }
+         .content {
+         text-align: center;
+         width: auto;
+         height: auto;
+         margin-top: 100px;
+         max-width: 100%;
+         max-height: 100%;
+         overflow: auto;
+         }
+         .btncls{
+         background-color:#fff;
+         border: #2e6da4;
+         font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+         font-size: 15px;
+         color: #000;
+         letter-spacing: 1px;
+         padding: 8px 12px;
+         font-size: 14px;
+         font-weight: normal;
+         border-radius: 4px;
+         line-height: 1.5;
+         text-decoration:none
+         }
+         textarea {
+         resize: none;
+         }
+         .bottomright {
+         position: absolute;
+         bottom: 8px;
+         left: 16px;
+         font-size: 14px;
+         }
+      </style>
+      <script>
+         function ClearForm(){
+         			document.MyForm.reset();
+         	}
+      </script>
+   </head>
+   <body onload="ClearForm()">
+      <form name='imageName' method='POST' action={{ url_for( 'predictCaption') }}>
+      <div class='content'>
+         <h1 >Automatic Caption Generator</h1>
+         <label for="imageSource">Enter Image URL : &nbsp;&nbsp;&nbsp;&nbsp;</label></br></br>
+         <textarea id='imageSource' name='imageSource' rows=5 cols=50></textarea>
+         </br></br>
+         <input type="submit" class='btncls' value="Submit">
+      </div>
+      </form>
+      </body 
+</html>
