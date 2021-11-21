@@ -13,7 +13,7 @@ The images are in .jpg format and has dimension of roughly 500x600 pixels, which
 
 ## Home Page: 
 
-![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png) 
+![N|Solid](https://github.com/aj8101/image-caption/blob/main/templates/Screenshot%202021-11-21%20211120.png?raw=true) 
 
 ## Result Page: 
  
